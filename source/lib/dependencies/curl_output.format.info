@@ -1,0 +1,9 @@
+###------------------------------------------------------------------------------------------------
+# file:    curl_output.format
+# purpose: Curl Output format file for use with 'write-out' argument for curl
+# version: 1.0.0
+#
+# notes:     
+#          - Designed as a format file to be referenced when curl is used
+#          - This allows us to collect Curl statistics, such as bandwidth, size, etc
+###------------------------------------------------------------------------------------------------
