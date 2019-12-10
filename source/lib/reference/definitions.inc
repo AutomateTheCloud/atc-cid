@@ -85,6 +85,11 @@ declare SCRIPTS_NPM_LOAD_VERSION="${DIRECTORY_BASE}/scripts/npm/load_version.sh"
 declare SCRIPTS_NPM_LOAD_VERSION="${DIRECTORY_BASE}/scripts/npm/validate_version.sh"
 
 ###------------------------------------------------------------------------------------------------
+## Scripts: SSL
+declare SCRIPTS_SSL_GENERATE_ROOT_CA="${DIRECTORY_BASE}/scripts/ssl/generate_root_ca.sh"
+declare SCRIPTS_SSL_GENERATE_SERVER_CERTIFICATE="${DIRECTORY_BASE}/scripts/ssl/generate_server_certificate.sh"
+
+###------------------------------------------------------------------------------------------------
 ## Scripts: Utility
 declare SCRIPTS_UTILITY_INSTALL="${DIRECTORY_BASE}/scripts/utility/install.sh"
 declare SCRIPTS_UTILITY_README_GENERATOR="${DIRECTORY_BASE}/scripts/utility/readme_generator.sh"
